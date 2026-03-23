@@ -1,0 +1,11 @@
+[
+  {
+    "buggy_code": "def add(a,b):
+  return a+b
+print(add(1))  # TypeError",
+    "fixed_code": "def add(a, b):
+  return a + b
+print(add(1, 2))",
+    "explanation": "Added missing argument to function call."
+  }
+]
